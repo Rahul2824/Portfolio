@@ -275,8 +275,8 @@ align-items: center;}
     display: flex;
     flex-direction: column;
     align-items: end;
-    min-width: 500px;
     gap: 20px;
+    width: 100%;
 }
 .para-2{
      color: white;
@@ -293,3 +293,121 @@ align-items: center;}
   border-radius: 10px;
 }
 
+
+@media (max-width: 768px) {
+
+    .fullbody {
+        width: 95%;
+    }
+
+    /* Navbar */
+    .Nav {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    .Option {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /* Home */
+    .name {
+        height: auto;
+        padding: 40px 10px;
+    }
+
+
+    /* Cards */
+    .square {
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .card {
+        width: 160px;
+        height: 210px;
+        padding: 20px 10px;
+    }
+
+    .card img {
+        width: 70px;
+    }
+
+
+    /* Skills */
+    .Skills {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    .skill-logo1 {
+        gap: 20px;
+    }
+
+    .skills-logo {
+        width: 90px;
+        padding-left: 0;
+    }
+
+    .skills-logo img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .skills-logo h2 {
+        font-size: 16px;
+    }
+
+
+    /* Tools */
+    .tools-logo1 {
+        gap: 20px;
+    }
+
+    .tools-logo {
+        width: 85px;
+    }
+
+    .tools-logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tools-logo h2 {
+        font-size: 15px;
+    }
+
+
+    /* Work Experience */
+
+    .two-box {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+    }
+
+    .para-1{
+       width: 100%;
+        max-width: 100%;
+        min-height: 250px;
+    }
+    .para-2 {
+        width: 100%;
+        max-width: 100%;
+        min-height: 250px;
+    }
+
+    .para-2-box {
+        min-width: 0;
+        width: 100%;
+        align-items: center;
+    }
+}
