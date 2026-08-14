@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Experience from './Experience';
+import Project from './Project';
 function App() {
   return (
     <div>
@@ -66,7 +67,7 @@ function App() {
             alt="web"
           /><h2 className='name'>
             Full Stack <br />
-            Developer
+            Developers
           </h2>
 
         </div>
@@ -136,6 +137,7 @@ function App() {
       
       </div>
       <Experience/>
+      <Project/>
     </div>
 
   )

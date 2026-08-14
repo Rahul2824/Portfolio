@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
 
@@ -16,9 +16,12 @@ body {
 
 .fullbody {
   width: min(1200px, 95%);
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
+  width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .Nav {
@@ -34,7 +37,7 @@ body {
 
 .Option {
   display: flex;
-  gap: 20mm;
+gap: 25px;
   font-size: 15px;
   color: rgb(200, 201, 202);
 }
@@ -277,6 +280,7 @@ align-items: center;}
     align-items: end;
     gap: 20px;
     width: 100%;
+    min-width: 0;
 }
 .para-2{
      color: white;
@@ -292,7 +296,9 @@ align-items: center;}
   box-sizing: border-box; 
   border-radius: 10px;
 }
-
+.Project-info{
+    color: rgb(200, 201, 202);
+}
 
 @media (max-width: 768px) {
 

@@ -2,8 +2,6 @@ import { useState } from 'react'
 function Experience() {
     return(
     <>
-    <div className='box'>
-
     <div className='fullbody'>
     <span className='name3'>What I have done so far</span>
       <h1 className='work-experience'>Work Experience.</h1>
@@ -27,21 +25,21 @@ function Experience() {
       <div className='left-dev'>
        <div className='para-2'> <h1>Backend Development</h1> 
  <h3>Node js, Express js, Mongoose</h3>
-<h3>
+<h4>
 ●Proficient in Node.js for building robust and scalable server-side applications. <br /><br />
 ●Strong command of Express.js for creating RESTful APIs and routing. <br /><br />
 ●Experience in using MongoDB and Mongoose, including the efficient data modeling and storage. <br /><br />
 ●Skillful use of Postman for API testing, validation, and documentation <br /><br />
 ●Application of Clean Architecture principles for modular and testable codebases <br /><br />
 ●Expertise in error handling, debugging, and performance optimization. 
-</h3>
+</h4>
 
 </div> 
 </div>
  </div>
 </div>
 </div>
-      </div>
+      
     </>
     )
 }
