@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Experience from './Experience';
 import Project from './Project';
+import Contact from './contact'
 function App() {
   return (
     <div>
@@ -138,6 +139,8 @@ function App() {
       </div>
       <Experience/>
       <Project/>
+      <br /><br /><br /><br />
+      <Contact/>
     </div>
 
   )

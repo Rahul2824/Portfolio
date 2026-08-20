@@ -20,7 +20,7 @@ function Project() {
                 <h2>Digital Alchol Shopkipper</h2>
                 <h3>Digital Alcohol Shopkeeper is a web-based management system for shopkeepers. It helps manage customers, alcohol brands, purchase records, sales, and stock. The system stores customer details and purchase history with date and time. It also provides a countdown for the next allowed purchase.</h3>
                </div>
-               <button className="button" onClick={()=> window.location.href ="https://alchol-shopkipper.onrender.com"}>open</button>
+               <button className="button-1" onClick={()=> window.location.href ="https://alchol-shopkipper.onrender.com"}>open</button>
             </div>
             <div className="Project-box-1">
                 <div className="Project-photo">
@@ -29,7 +29,7 @@ function Project() {
                 <h2>Portfolio</h2>
                 <h3>My portfolio features a collection of projects that showcase my skills in developing modern, user-friendly, and efficient web applications. Each project reflects my commitment to clean design, practical functionality, and delivering reliable web solutions while continuously improving my development skills.</h3>
                </div>
-                              <button className="button" onClick={()=> window.location.href = "https://portfolio-3e43.onrender.com/"}>open</button>
+                              <button className="button-1" onClick={()=> window.location.href = "https://portfolio-3e43.onrender.com/"}>open</button>
 
             </div>
             </div>

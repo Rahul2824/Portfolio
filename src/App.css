@@ -345,7 +345,7 @@ body {
   color: rgb(178, 173, 173);
   font-size: 10px;
 }
-button {
+.button-1 {
   height: 30px;
   width: 60px;
   border: none;
@@ -355,7 +355,49 @@ button {
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 198, 255, 0.3);
 }
+.contact{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.contact-div-1{
+  height: 250px;
+  width: 500px;
+background-color: #180d41;
+padding-left: 20px;
+}
+.contact-div-1 h1 {
+ color: white;
+ font-size: 60px;
+margin-top: auto;
+}
+.contact-div-1 h3 {
+  color: rgb(178, 173, 173);
+}
 
+.contact-div-2{
+   height: 250px;
+  width: 500px;
+}
+.contact-div-2 img{
+  height: auto;
+  width: 100%;
+}
+.button-2{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  height: 25px;
+  width: auto;
+  color: blue;
+}
+.button-2 button{
+ background-color: #180d41;
+ color: blue;
+ border-color: blue;
+ cursor: pointer;
+
+}
 @media (max-width: 768px) {
 
   .fullbody {
@@ -473,5 +515,49 @@ button {
     min-width: 0;
     width: 100%;
     align-items: center;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .contact-div-1 {
+    height: auto;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .contact-div-1 h1 {
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  .contact-div-1 h3 {
+    font-size: 16px;
+  }
+
+  .contact-div-2 {
+    height: auto;
+    width: 90%;
+  }
+
+  .contact-div-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .button-2 {
+    gap: 15px;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .button-2 button {
+    padding: 8px 15px;
   }
 }
