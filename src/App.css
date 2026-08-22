@@ -401,7 +401,7 @@ margin-top: auto;
 @media (max-width: 768px) {
 
   .fullbody {
-    width: 95%;
+    width: 80%;
 
   }
 
@@ -559,5 +559,8 @@ margin-top: auto;
 
   .button-2 button {
     padding: 8px 15px;
+  }
+  .Project-box-1 {
+  height: 350px;
   }
 }
