@@ -15,9 +15,13 @@ function App() {
           <h3>Contact</h3></div>
       </div>
       <div className='name'>
-        <h1 style={{ fontSize: "80px", color: "white",margin:"0px"}}>Hi, I'm <span style={{ color: "#7108c2" }}>Rahul</span>  </h1>
-        <h2 style={{ fontSize: "30px",padding:"0px", color: "white",margin:"0px" }}>I develop full stack wep Application, using</h2>
-        <h2 style={{ fontSize: "13mm",margin:"0px",padding:"0px", }}> <span className="mern">MERN </span><span className="stack">Stack</span></h2>
+        <h1 style={{ fontSize: "80px", color: "white",margin:"0px", width:"auto"}}>Hi, I'm <span style={{ color: "#7108c2",width:"auto" }}>Rahul</span>  </h1>
+        <h2 style={{ fontSize: "30px",padding:"0px", color: "white",margin:"0px",width:"auto" }}>I develop full stack wep Application, using</h2>
+        <h2 style={{ fontSize: "13mm",margin:"0px",padding:"0px",width:"auto" }}> <span className="mern">MERN </span><span className="stack">Stack</span>
+        </h2>
+<div className='photo'>
+         <img src="/Photo.jpg" alt="Photo"/></div>
+
       </div>
       <div className='intro'>
         <h1>INTRODUCTION</h1>
