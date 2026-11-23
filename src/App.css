@@ -542,7 +542,21 @@ margin-top: auto;
     width: 100%;
   }
 
-  
+  .contact-div-1 {
+    height: auto;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .contact-div-1 h1 {
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  .contact-div-1 h3 {
+    font-size: 16px;
+  }
 
   .contact-div-2 {
     height: auto;
@@ -555,7 +569,12 @@ margin-top: auto;
     display: block;
   }
 
-  
+  .button-2 {
+    gap: 15px;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
 
   .button-2 button {
     padding: 8px 15px;
