@@ -563,23 +563,4 @@ margin-top: auto;
     width: 90%;
   }
 
-  .contact-div-2 img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .button-2 {
-    gap: 15px;
-    height: auto;
-    flex-wrap: wrap;
-    margin-top: 15px;
-  }
-
-  .button-2 button {
-    padding: 8px 15px;
-  }
-  .Project-box-1 {
-  height: 350px;
-  }
 }
